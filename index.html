@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="some-block"></div>
+    <p id="para"></p>
+    <span class="el_span">Span 1</span>
+    <span class="el_span">Span 2</span>
+    <span>Span 3</span>
+    <p>Second Paragraphs</p>
+
+    <form onsubmit="return checkForm()">
+        <input type="text" name="username" placeholder="Введіть ім'я"><br>
+        <input type="email" name="email" placeholder="Введіть email"><br>
+        <input type="password" name="password" placeholder="Введіть password"><br>
+
+        <input class="radio" type="radio" name="gender" value="male" id="male"> 
+        <label for="male" class="genderRadio">Чоловік <br></label>
+       
+        <input class="radio" type="radio" name="gender" value="female" id="female">
+        <label for="female" class="genderRadio">Жінка<br></label>  
+        <button id="Submit">Submit</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
