@@ -29,9 +29,24 @@ paragraphs[1].style.fontSize = "23px"
 
 let form = document.getElementsByTagName('form')
 
+function checkForm(el){
+    let username = el.username.value;
+    let email = el.email.value;
+    let gender = el.gender.value;
 
+    let userDate = {
+        NickName: username,
+        userEmail: email,
+        gender: gender,
+    }
 
-function checkForm(){
-    console.log("form")
+    // if(document.getElementById("male").checked){
+    //     userDate.gender = "Male";
+    // }else if (document.getElementById("female").checked){
+    //     userDate.gender = "Female";
+    // }else console.log("Gender undefinded")
+
+    console.log(userDate)
     return false
 }
+

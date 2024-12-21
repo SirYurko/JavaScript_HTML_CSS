@@ -14,7 +14,7 @@
     <span>Span 3</span>
     <p>Second Paragraphs</p>
 
-    <form onsubmit="return checkForm()">
+    <form onsubmit="return checkForm(this)">
         <input type="text" name="username" placeholder="Введіть ім'я"><br>
         <input type="email" name="email" placeholder="Введіть email"><br>
         <input type="password" name="password" placeholder="Введіть password"><br>
@@ -24,6 +24,7 @@
        
         <input class="radio" type="radio" name="gender" value="female" id="female">
         <label for="female" class="genderRadio">Жінка<br></label>  
+        
         <button id="Submit">Submit</button>
     </form>
 
