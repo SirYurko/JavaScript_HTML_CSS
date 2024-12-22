@@ -32,3 +32,9 @@ input{
     background-color: rgb(253, 158, 158);
     border-color: gray;
 }
+
+#errorMessage{
+    color: rgb(255, 121, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
